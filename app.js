@@ -27,7 +27,7 @@ function navScroll(entries) {
       left: coordinates.left,
     };
 
-    if (entry.Intersecting) {
+    if (entry.isIntersecting) {
       trans.style.setProperty("width", `${directions.width}px`);
       trans.style.setProperty("height", `${directions.height}px`);
       trans.style.setProperty("top", `${directions.top}px`);
